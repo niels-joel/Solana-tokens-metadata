@@ -1,2 +1,2 @@
-# bovencoindev
-bovencoin on devnet
+# Bovencoindev
+Bovencoin on devnet
