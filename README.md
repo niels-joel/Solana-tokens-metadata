@@ -1,2 +1,2 @@
-# Bovencoindev
-Bovencoin on devnet
+# Bovencoin
+Bovencoin metadata and logo
