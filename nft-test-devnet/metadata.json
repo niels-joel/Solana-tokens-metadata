@@ -1,0 +1,13 @@
+{
+  "name": "NFT B",
+  "symbol": "",
+  "uri": "",
+  "seller_fee_basis_points": 500,
+  "creators": [
+    {
+      "address": "14KviJ5FEkPePMUZEh5WCrP6yCyqzgifLBeY6gmsQg22",
+      "share": 100
+    }
+  ],
+  "image": ""
+}
