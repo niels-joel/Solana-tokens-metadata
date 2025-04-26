@@ -1,2 +1,3 @@
-# Bovencoin
-Bovencoin metadata and logo
+# Solana token metadata and logo's
+Bovencoin
+Bovencoin-devnet
