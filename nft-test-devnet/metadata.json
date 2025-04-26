@@ -1,7 +1,7 @@
 {
   "name": "NFT B",
   "symbol": "",
-  "uri": "",
+  "uri": "https://raw.githubusercontent.com/niels-joel/Solana-tokens-metadata/refs/heads/main/nft-test-devnet/metadata.json",
   "seller_fee_basis_points": 500,
   "creators": [
     {
