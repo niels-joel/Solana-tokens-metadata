@@ -1,6 +1,6 @@
-name: "NFT B",
-    symbol: "B",
-    description: "cool nft B",
+name: "G-Square",
+    symbol: "",
+    description: "G-Square",
     seller_fee_basis_points: 500,
     external_url: "",
     attributes: [
@@ -10,7 +10,7 @@ name: "NFT B",
       }
     ],
     collection: {
-      name: "Test Collection",
+      name: "G-Square",
       family: "Custom NFTs"
     },
     properties: {
