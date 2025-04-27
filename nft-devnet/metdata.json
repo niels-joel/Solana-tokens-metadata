@@ -1,4 +1,3 @@
-const metadata = {
     name: "G-Square",
     symbol: "GS",
     description: "G-Square",
@@ -30,4 +29,3 @@ const metadata = {
       ]
     },
     image: "https://raw.githubusercontent.com/niels-joel/Solana-tokens-metadata/refs/heads/main/nft-devnet/nft.png"
-};
