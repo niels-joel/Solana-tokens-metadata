@@ -16,7 +16,7 @@ name: "G-Square",
     properties: {
       files: [
         {
-          uri: https://raw.githubusercontent.com/niels-joel/Solana-tokens-metadata/refs/heads/main/nft-devnet/nft.png,
+          uri: "https://raw.githubusercontent.com/niels-joel/Solana-tokens-metadata/refs/heads/main/nft-devnet/nft.png",
           type: "image/png"
         }
       ],
@@ -29,5 +29,5 @@ name: "G-Square",
         }
       ]
     },
-    image: https://raw.githubusercontent.com/niels-joel/Solana-tokens-metadata/refs/heads/main/nft-devnet/nft.png
+    image: "https://raw.githubusercontent.com/niels-joel/Solana-tokens-metadata/refs/heads/main/nft-devnet/nft.png"
   };
