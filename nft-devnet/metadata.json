@@ -4,7 +4,16 @@
   "description": "G-Square",
   "seller_fee_basis_points": 0,
   "image": "https://raw.githubusercontent.com/niels-joel/Solana-tokens-metadata/main/nft-devnet/nft.png",
-  "attributes": [],
+  "attributes": [
+{
+      "trait_type": "Artist",
+      "value": "Sem"
+    },
+{
+      "trait_type": "Date",
+      "value": "2025-04-24"
+    }
+],
   "properties": {
     "files": [
       {
