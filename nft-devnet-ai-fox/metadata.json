@@ -3,12 +3,12 @@
   "symbol": "",
   "description": "Fox with hat",
   "seller_fee_basis_points": 0,
-  "image": "https://raw.githubusercontent.com/niels-joel/Solana-tokens-metadata/main/nft-ai-fox/nft.png",
+  "image": "https://raw.githubusercontent.com/niels-joel/Solana-tokens-metadata/main/nft-devnet-ai-fox/nft.png",
   "attributes": [],
   "properties": {
     "files": [
       {
-        "uri": "https://raw.githubusercontent.com/niels-joel/Solana-tokens-metadata/main/nft-ai-fox/nft.png",
+        "uri": "https://raw.githubusercontent.com/niels-joel/Solana-tokens-metadata/main/nft-devnet-ai-fox/nft.png",
         "type": "image/png"
       }
     ],
