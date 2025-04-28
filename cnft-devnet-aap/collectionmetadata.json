@@ -1,0 +1,22 @@
+{
+  "name": "Ape Collection",
+  "symbol": "AC",
+  "description": "Apes",
+  "seller_fee_basis_points": 0,
+  "image": "",
+  "external_url": "",
+  "attributes": [],
+  "collection": {
+    "name": "Ape Collection",
+    "family": "Apes"
+  },
+  "properties": {
+    "files": [
+      {
+        "uri": "",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}
