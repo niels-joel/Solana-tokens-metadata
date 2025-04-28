@@ -60,15 +60,6 @@ RUN solana --version
 # Set up Solana config for Devnet
 RUN solana config set -ud
 
-#extra voor nfts zoals npm enzo
-# Install NVM, Node.js (LTS), and npm packages
-#RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash && \
-#    export NVM_DIR="$HOME/.nvm" && \
-#    [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" && \
-#    nvm install --lts && \
-#    npm install -g typescript @solana/web3.js@1 esrun \
-#    && npm install -g @metaplex-foundation/umi @metaplex-foundation/mpl-token-metadata @metaplex-foundation/umi-bubblegum bs58
-
 # Installeer Node.js (LTS) en npm
 RUN curl -fsSL https://deb.nodesource.com/setup_lts.x | bash - && \
     apt-get install -y nodejs
