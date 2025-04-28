@@ -1,7 +1,3 @@
-//wallet private key must be in my-keypair.json
-//Run this script with "bun run create-collection.ts
-
-
 import { createUmi } from "@metaplex-foundation/umi-bundle-defaults";
 import { generateSigner, keypairIdentity, percentAmount } from "@metaplex-foundation/umi";
 import { createNft, mplTokenMetadata } from "@metaplex-foundation/mpl-token-metadata";
