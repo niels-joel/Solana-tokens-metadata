@@ -3,7 +3,7 @@
   "symbol": "AC",
   "description": "Apes",
   "seller_fee_basis_points": 0,
-  "image": "",
+  "image": "https://raw.githubusercontent.com/niels-joel/Solana-tokens-metadata/main/cnft-devnet-aap/nft.png",
   "external_url": "",
   "attributes": [],
   "collection": {
@@ -13,7 +13,7 @@
   "properties": {
     "files": [
       {
-        "uri": "",
+        "uri": "https://raw.githubusercontent.com/niels-joel/Solana-tokens-metadata/main/cnft-devnet-aap/nft.png",
         "type": "image/png"
       }
     ],
