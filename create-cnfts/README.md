@@ -16,3 +16,5 @@ curl -fsSL https://bun.sh/install | bash
 bun install
 ```
 - put your private keypair in `my-keypair.json`.
+- edit the script with your own information.
+such as wallet adress, nft names, metadata links. etc.
