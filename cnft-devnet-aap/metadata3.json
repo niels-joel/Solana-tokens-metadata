@@ -1,36 +1,36 @@
 {
-  "name": "Cosmic Ape #2",
-  "symbol": "CAPE",
-  "description": "A unique ape from the Cosmic Ape Collection. Stylish, colorful, and rebellious, hailing from the edges of the galaxy.",
-  "image": "https://raw.githubusercontent.com/niels-joel/Solana-tokens-metadata/main/cnft-devnet-aap/nft2.png",
+  "name": "Neon Ape #3",
+  "symbol": "NAPE",
+  "description": "An electrifying ape from the Neon Ape Collection, embodying street style and cosmic energy.",
+  "image": "https://raw.githubusercontent.com/niels-joel/Solana-tokens-metadata/main/cnft-devnet-aap/nft3.png",
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Psychedelic Sunset"
+      "value": "Neon Jungle"
     },
     {
       "trait_type": "Fur",
-      "value": "Neon Blue"
+      "value": "Midnight Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Laser Vision"
+      "value": "Hidden behind Shades"
     },
     {
       "trait_type": "Mouth",
-      "value": "Grin with Gold Tooth"
+      "value": "Smirk"
     },
     {
       "trait_type": "Accessory",
-      "value": "Space Goggles"
+      "value": "Neon Shades"
     },
     {
       "trait_type": "Clothing",
-      "value": "Galactic Armor"
+      "value": "Electric Hoodie"
     },
     {
       "trait_type": "Mood",
-      "value": "Defiant"
+      "value": "Chill"
     },
     {
       "trait_type": "Edition",
@@ -42,7 +42,7 @@
   "properties": {
     "files": [
       {
-        "uri": "https://raw.githubusercontent.com/niels-joel/Solana-tokens-metadata/main/cnft-devnet-aap/nft2.png",
+        "uri": "https://raw.githubusercontent.com/niels-joel/Solana-tokens-metadata/main/cnft-devnet-aap/nft3.png",
         "type": "image/png"
       }
     ],
