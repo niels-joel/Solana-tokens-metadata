@@ -1,5 +1,29 @@
 # Solana token metadata and logo's
-Metadata and images for solana spl tokens and nfts
+repository with Metadata and images for solana spl tokens and nfts
+
+# How to make solana spl-tokens and nfts, cnfts
+This is for linux, on windows use WSL
+
+## Install Docker and other dependencies
+Run these commands to install docker and other tools you need
+```
+# Add Docker's official GPG key:
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+
+# Add the repository to Apt sources:
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+```
+```
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
 
 ## Create a docker image with all the needed tools preinstalled
 First, create a `Dockerfile` with `nano Dockerfile`
@@ -68,3 +92,11 @@ CMD ["/bin/bash"]
 
 ```
 To save the `Dockerfile` press `ctrl+x` to exit and then press `y` and `Enter` to save
+
+Second, build a docker image with this `Dockerfile`. Run this:
+```
+docker build -t createtokensandnfts .
+```
+To build the image. 
+
+*you can change the "createtokensandnfts" to something you like*
