@@ -1,1 +1,57 @@
-
+{
+  "name": "Urban Ape #4",
+  "symbol": "UAPE",
+  "description": "A fierce and streetwise ape from the Urban Ape Collection, carrying the spirit of survival and coolness.",
+  "image": "https://raw.githubusercontent.com/niels-joel/Solana-tokens-metadata/main/cnft-devnet-aap/nft4.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Shadow Alley"
+    },
+    {
+      "trait_type": "Fur",
+      "value": "Charcoal Grey"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Focused Stare"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Straight Face"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Earring"
+    },
+    {
+      "trait_type": "Clothing",
+      "value": "Tactical Vest"
+    },
+    {
+      "trait_type": "Mood",
+      "value": "Determined"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Genesis"
+    }
+  ],
+  "seller_fee_basis_points": 500,
+  "external_url": "",
+  "properties": {
+    "files": [
+      {
+        "uri": "https://raw.githubusercontent.com/niels-joel/Solana-tokens-metadata/main/cnft-devnet-aap/nft4.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "tnn4xu6mp96KcScBmLgwp42uuzLvpjwRipoSccXYw66",
+        "share": 100
+      }
+    ]
+  }
+}
