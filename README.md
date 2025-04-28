@@ -1,3 +1,2 @@
 # Solana token metadata and logo's
-Bovencoin
-Bovencoin-devnet
+Metadata and images for solana spl tokens and nfts
