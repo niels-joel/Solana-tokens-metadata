@@ -1,5 +1,5 @@
 # Solana token metadata and logo's
-repository with Metadata and images for solana spl tokens and nfts
+Repository with Metadata and images for solana spl tokens and nfts
 
 # How to make solana spl-tokens and nfts, cnfts
 This is for linux, on windows use WSL
@@ -100,3 +100,13 @@ docker build -t createtokensandnfts .
 To build the image. 
 
 *you can change the "createtokensandnfts" to something you like*
+
+## Run the Container
+Now that we have build the image, we can create a new docker container with this image.
+```
+docker run -it --rm -v $(pwd):/solana-nft-data -v $(pwd)/solana-nft-data:/root/.config/solana createtokensandnfts
+```
+- *-it* so we hop into the containers shell
+- *-v* for mapping our current directory inside the docker container, so that all the work will be saved
+- *--rm* so the docker container will be deleted after you exit it. We dont need it anymore because everything we do will be saved in the current directory of the host machine.
+
