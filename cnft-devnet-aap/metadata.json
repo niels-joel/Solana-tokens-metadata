@@ -2,7 +2,7 @@
   "name": "Cosmic Ape",
   "symbol": "COSAPE",
   "description": "A cosmic ape rocking pixelated glasses and a gold chain, set against a vibrant space backdrop.",
-  "image": "https://example.com/cosmic-ape.png",
+  "image": "https://raw.githubusercontent.com/niels-joel/Solana-tokens-metadata/main/cnft-devnet-aap/nft.png",
   "attributes": [
     { "trait_type": "Background", "value": "Cosmic Nebula" },
     { "trait_type": "Fur", "value": "Bluish-Purple" },
@@ -12,14 +12,20 @@
     { "trait_type": "Cigarette", "value": "Yes" }
   ],
   "seller_fee_basis_points": 500,
-  "external_url": "https://example.com/cosmic-ape",
+  "external_url": "",
   "properties": {
     "files": [
       {
-        "uri": "https://example.com/cosmic-ape.png",
+        "uri": "https://raw.githubusercontent.com/niels-joel/Solana-tokens-metadata/main/cnft-devnet-aap/nft.png",
         "type": "image/png"
       }
     ],
-    "category": "image"
+    "category": "image",
+    "creators": [
+      {
+        "address": "tnn4xu6mp96KcScBmLgwp42uuzLvpjwRipoSccXYw66",
+        "share": 100
+      }
+    ]
   }
 }
