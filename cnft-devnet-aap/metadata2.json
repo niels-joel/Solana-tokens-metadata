@@ -1,15 +1,41 @@
 {
-  "name": "Cosmic Ape",
-  "symbol": "COSAPE",
-  "description": "A cosmic ape rocking pixelated glasses and a gold chain, set against a vibrant space backdrop.",
+  "name": "Cosmic Ape #2",
+  "symbol": "CAPE",
+  "description": "A unique ape from the Cosmic Ape Collection. Stylish, colorful, and rebellious, hailing from the edges of the galaxy.",
   "image": "https://raw.githubusercontent.com/niels-joel/Solana-tokens-metadata/main/cnft-devnet-aap/nft2.png",
   "attributes": [
-    { "trait_type": "Background", "value": "Cosmic Nebula" },
-    { "trait_type": "Fur", "value": "Bluish-Purple" },
-    { "trait_type": "Accessories", "value": "Gold Chain" },
-    { "trait_type": "Glasses", "value": "Pixelated Sunglasses" },
-    { "trait_type": "Expression", "value": "Relaxed" },
-    { "trait_type": "Cigarette", "value": "Yes" }
+    {
+      "trait_type": "Background",
+      "value": "Psychedelic Sunset"
+    },
+    {
+      "trait_type": "Fur",
+      "value": "Neon Blue"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Laser Vision"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Grin with Gold Tooth"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Space Goggles"
+    },
+    {
+      "trait_type": "Clothing",
+      "value": "Galactic Armor"
+    },
+    {
+      "trait_type": "Mood",
+      "value": "Defiant"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Genesis"
+    }
   ],
   "seller_fee_basis_points": 500,
   "external_url": "",
