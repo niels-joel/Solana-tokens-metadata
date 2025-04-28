@@ -1,1 +1,25 @@
-
+{
+  "name": "Cosmic Ape",
+  "symbol": "COSAPE",
+  "description": "A cosmic ape rocking pixelated glasses and a gold chain, set against a vibrant space backdrop.",
+  "image": "https://example.com/cosmic-ape.png",
+  "attributes": [
+    { "trait_type": "Background", "value": "Cosmic Nebula" },
+    { "trait_type": "Fur", "value": "Bluish-Purple" },
+    { "trait_type": "Accessories", "value": "Gold Chain" },
+    { "trait_type": "Glasses", "value": "Pixelated Sunglasses" },
+    { "trait_type": "Expression", "value": "Relaxed" },
+    { "trait_type": "Cigarette", "value": "Yes" }
+  ],
+  "seller_fee_basis_points": 500,
+  "external_url": "https://example.com/cosmic-ape",
+  "properties": {
+    "files": [
+      {
+        "uri": "https://example.com/cosmic-ape.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}
