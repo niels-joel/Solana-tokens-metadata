@@ -113,8 +113,9 @@ and paste this into the file.
 ```
 sudo docker run -it --rm -v $(pwd):/solana-nft-data -v $(pwd)/solana-nft-data:/root/.config/solana createtokensandnfts
 ```
-then press `ctrl+x` to exit and then press `y` and `Enter` to save
-To make the `enterdockercontainer.sh`file executable. We need to add an executable parameter to the file
+then press `ctrl+x` to exit and then press `y` and `Enter` to save.
+
+To make the `enterdockercontainer.sh`file executable. We need to add an executable parameter to the file.
 ```
 chmod +x enterdockercontainer.sh
 ```
