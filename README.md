@@ -106,7 +106,28 @@ Now that we have build the image, we can create a new docker container with this
 ```
 docker run -it --rm -v $(pwd):/solana-nft-data -v $(pwd)/solana-nft-data:/root/.config/solana createtokensandnfts
 ```
+This will run the docker container in the current directory. make sure you are in the right directory before executing this.
+To make a new folder use `mkdir foldername`
 - *-it* so we hop into the containers shell
 - *-v* for mapping our current directory inside the docker container, so that all the work will be saved
 - *--rm* so the docker container will be deleted after you exit it. We dont need it anymore because everything we do will be saved in the current directory of the host machine.
 
+### Create enterdockercontainer.sh (optional)
+I like to create an executable file that creates the container, so you dont have to run the same code everytime.
+create `enterdockercontainer.sh` with 
+```
+nano enterdockercontainer.sh
+```
+and paste this into the file.
+```
+sudo docker run -it --rm -v $(pwd):/solana-nft-data -v $(pwd)/solana-nft-data:/root/.config/solana createtokensandnfts
+```
+then press `ctrl+x` to exit and then press `y` and `Enter` to save
+To make the `enterdockercontainer.sh`file executable. We need to add an executable parameter to the file
+```
+chmod +x enterdockercontainer.sh
+```
+To execute the file and hop into the new container. Run 
+```
+./enterdockercontainer.sh
+```
