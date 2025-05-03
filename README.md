@@ -35,50 +35,55 @@ FROM debian:bullseye-slim
 # Set non-interactive frontend for apt
 ENV DEBIAN_FRONTEND=noninteractive
 
-# Install required dependencies and Rust
+# Install system dependencies
 RUN apt-get update && apt-get install -y \
-    curl build-essential libssl-dev pkg-config nano \
-    && curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y \
+    curl \
+    git \
+    unzip \
+    build-essential \
+    libssl-dev \
+    pkg-config \
+    nano \
+    ca-certificates \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# Add Rust to PATH
+# Install Rust
+RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 ENV PATH="/root/.cargo/bin:$PATH"
-
-# Verify Rust installation
 RUN rustc --version
 
 # Install Solana CLI
-RUN curl -sSfL https://release.anza.xyz/stable/install | sh \
-    && echo 'export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"' >> ~/.bashrc
-
-# Add Solana CLI to PATH
+RUN curl -sSfL https://release.anza.xyz/stable/install | sh
 ENV PATH="/root/.local/share/solana/install/active_release/bin:$PATH"
-
-# Verify Solana CLI installation
+RUN echo 'export PATH="/root/.local/share/solana/install/active_release/bin:$PATH"' >> /root/.bashrc
 RUN solana --version
 
-# Set up Solana config for Devnet
-RUN solana config set -ud
+# Set Solana config to devnet
+RUN solana config set --url https://api.devnet.solana.com
 
-# Installeer Node.js (LTS) en npm
+# Install Bun
+RUN curl -fsSL https://bun.sh/install | bash
+ENV PATH="/root/.bun/bin:$PATH"
+RUN bun --version
+
+# Install Node.js (LTS) via NodeSource
 RUN curl -fsSL https://deb.nodesource.com/setup_lts.x | bash - && \
     apt-get install -y nodejs
 
-# Installeer benodigde globale npm packages
+# Install global NPM packages (incl. Metaplex & UMI)
 RUN npm install -g \
     typescript \
     @solana/web3.js@1 \
     esrun \
+    bs58 \
     @metaplex-foundation/umi \
     @metaplex-foundation/mpl-bubblegum \
-    @metaplex-foundation/mpl-token-metadata \
-    bs58
-
+    @metaplex-foundation/mpl-token-metadata
 
 # Set working directory
 WORKDIR /solana-nft-data
 
-# Default command to run a shell
+# Default to bash shell
 CMD ["/bin/bash"]
 
 ```
