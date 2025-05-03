@@ -1,8 +1,21 @@
 # Solana token metadata and logo's
-Repository with Metadata and images for solana spl tokens and nfts
+This is a Repository with Metadata and images for solana spl tokens and nfts.
 
+Below there is a guide on how to make your own tokens and nfts.
+<br><br><br><br>
 # How to make solana spl-tokens and nfts, cnfts
-This is for linux, on windows use WSL
+How to make a solana spl-token, nft or cnft.
+
+This is for linux, on windows use WSL with linux.
+
+<h3>Table of Contents</h3>
+<ul>
+<li><a href="https://github.com/niels-joel/Solana-tokens-metadata#install-docker-and-other-dependencies">Install Docker</a></li>
+<li><a href="https://github.com/niels-joel/Solana-tokens-metadata#Make-a-Solana-Spl-token">Make a Solana Spl-Token</a></li>
+<li><a href="https://github.com/niels-joel/Solana-tokens-metadata#Make-a-nft">Make a NFT</a></li>
+<li><a href="https://github.com/niels-joel/Solana-tokens-metadata#Make-a-cnft">Make a CNFT</a></li>
+</ul>
+<br><br>
 
 ## Install Docker and other dependencies
 Run these commands to install docker and other tools you need
